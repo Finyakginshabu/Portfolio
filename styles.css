@@ -564,6 +564,25 @@ input:-moz-autofill {
     font-size: 26px;
 }
 
+.cow-con {
+    position: relative;
+    display: inline-block;
+}
+
+.cow {
+    color: #000899;
+    cursor: pointer;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%) scaleY(3);
+}
+
+.cow:hover {
+    color: #fe6400;
+}
+
 @media (max-width: 1126px) {
     body {
         font-size: 22px;

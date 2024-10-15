@@ -5,265 +5,269 @@ git push
 -->
 
 <DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finyakginshabu</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/svg" href="images/FIN.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finyakginshabu</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/svg" href="images/FIN.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
 
-<body>
-    <header>
-        <div>
-            <a class="logo" href="https://youtu.be/dQw4w9WgXcQ?si=f1uVSi56qwXSC2RI">
-                <img class="logo" src="images/FIN.svg" alt="logo">
-            </a>
-            <img class="LD" src="images/moon.svg" alt="moon">
-            <h4 class="LNG">TH</h4>
-        </div>
-        <nav>
+    <body>
+        <header>
             <div>
-                <a class="EN" href="#home">Home</a>
-                <a class="EN" href="#about">About Me</a>
-                <a class="EN" href="#education">Education</a>
-                <a class="EN" href="#skills">Skills</a>
-                <a class="EN" href="#contact">Contacts</a>
-                <a class="TH" style="display: none;" href="#home">บ้าน</a>
-                <a class="TH" style="display: none;" href="#about">เกี่ยวกับฉัน</a>
-                <a class="TH" style="display: none;" href="#education">การศึกษา</a>
-                <a class="TH" style="display: none;" href="#skills">ความเก่ง</a>
-                <a class="TH" style="display: none;" href="#contact">ช่องทางติดต่อ</a>
+                <a class="logo" href="https://youtu.be/dQw4w9WgXcQ?si=f1uVSi56qwXSC2RI">
+                    <img class="logo" src="images/FIN.svg" alt="logo">
+                </a>
+                <img class="LD" src="images/moon.svg" alt="moon">
+                <h4 class="LNG">TH</h4>
             </div>
-            <a onclick=showSidebar() class="menu" href="#">☰</a>
-        </nav>
-    </header>
-
-    <div class="sidebar">
-        <a onclick=hideSidebar() class="bye" href="#">&times;</a>
-        <a class="EN" href="#home">Home</a>
-        <a class="EN" href="#about">About Me</a>
-        <a class="EN" href="#education">Education</a>
-        <a class="EN" href="#skills">Skills</a>
-        <a class="EN" href="#contact">Contacts</a>
-        <a class="TH" style="display: none;" href="#home">บ้าน</a>
-        <a class="TH" style="display: none;" href="#about">เกี่ยวกับฉัน</a>
-        <a class="TH" style="display: none;" href="#education">การศึกษา</a>
-        <a class="TH" style="display: none;" href="#skills">ความเก่ง</a>
-        <a class="TH" style="display: none;" href="#contact">ช่องทางติดต่อ</a>
-    </div>
-
-    <section id="home">
-        <h1 class="EN">Fin's Portfolio Website</h1>
-        <h4 class="EN">Hi there, Fin is glad to see you!</h4>
-        <h1 class="TH" style="display: none;">ฟินอยากกินพิซซา</h1>
-        <h4 class="TH" style="display: none;">ดีคับ นี่เป็นการบ้านของฟิน ดีใจจังเลยคับ</h4>
-    </section>
-    <div class="section-bg">
-        <section id="about">
-            <div class="about">
-                <div class="about-img">
-                    <img src="images/AM_BOY.gif" alt="Fin">
+            <nav>
+                <div>
+                    <a class="EN" href="#home">Home</a>
+                    <a class="EN" href="#about">About Me</a>
+                    <a class="EN" href="#education">Education</a>
+                    <a class="EN" href="#skills">Skills</a>
+                    <a class="EN" href="#contact">Contacts</a>
+                    <a class="TH" style="display: none;" href="#home">บ้าน</a>
+                    <a class="TH" style="display: none;" href="#about">เกี่ยวกับฉัน</a>
+                    <a class="TH" style="display: none;" href="#education">การศึกษา</a>
+                    <a class="TH" style="display: none;" href="#skills">ความเก่ง</a>
+                    <a class="TH" style="display: none;" href="#contact">ช่องทางติดต่อ</a>
                 </div>
-                <div class="about-text">
-                    <h1 class="EN">About Fin</h1>
-                    <p class="EN">Hii, my name is Chawin Chinpraditsuk. I am a first-year computer engineering student
-                        at KMUTT. I started learning code from zero with the goal of becoming as good as my friends
-                        here.
-                        This is my first website, and I appreciate your visit! :0</p>
-                    <h1 class="TH" style="display: none;">เกี่ยวกับฟิน</h1>
-                    <p class="TH" style="display: none;">สวัสดีคับ ผมชื่อชวิน ชินประดิษฐสุข
-                        เป็นนักศึกษาวิศวกรรมคอมพิวเตอร์ปี 1 ที่ มจธ. ผมเพิ่งมาหัดเขียนโค้ดเอาได้เมื่อไม่นานมานี้
-                        ผมมีเป้าหมายที่อยากเก่งเหมือนเพื่อน ๆ ของผม สิ่งนี้เป็นเว็บไซต์แรกของผม
-                        น้ำตาจะไหลที่คุณเปิดอ่านนะคับ TT</p>
-                </div>
-            </div>
-        </section>
-        <section id="education">
-            <h1 class="EN">Education</h1>
-            <h1 class="TH" style="display: none;">การศึกษา</h1>
-            <div class="education">
-                <swb>
-                    <h4 class="EN">Kindergarten-High school</h4>
-                    <h4 class="TH" style="display: none;">อนุบาล-มัธยมปลาย</h4>
-                    <img src="images/SWB.gif" alt="SWB">
-                    <p class="EN">
-                        <a href="https://www.swb.ac.th/swb/">Sarasas Witaed Bangbon
-                            School</a><br><span>(2008-2023)</span><br>Science and Mathametics Program
-                    </p>
-                    <p class="TH" style="display: none;">
-                        <a href="https://www.swb.ac.th/swb/">โรงเรียนสารสาสน์วิเทศบางบอน
-                        </a><br><span>(2551-2566)</span><br>แผนการเรียนวิทยาศาสตร์และคณิตศาสตร์
-                    </p>
-                </swb>
-                <kmutt>
-                    <h4 class="EN">University</h4>
-                    <h4 class="TH" style="display: none;">มหาวิทยาลัย</h4>
-                    <img src="images/KMUTT.gif" alt="SWB">
-                    <p class="EN">
-                        <a href="https://www.kmutt.ac.th/">King Mongkut’s University of Technology
-                            Thonburi</a><br><span>(2024-Present)</span><br><a
-                            href="https://www.cpe.kmutt.ac.th/">Bachelor
-                            of Engineering Program in Computer Engineering</a>
-                    </p>
-                    <p class="TH" style="display: none;">
-                        <a href="https://www.kmutt.ac.th/">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
-                        </a><br><span>(2024-Present)</span><br><a
-                            href="https://www.cpe.kmutt.ac.th/">หลักสูตรวิศวกรรมศาสตรบัณฑิต
-                            สาขาวิชาวิศวกรรมคอมพิวเตอร์</a>
-                    </p>
-                </kmutt>
-            </div>
-        </section>
-        <section id="skills">
-            <h1 class="EN">Skills</h1>
-            <h1 class="TH" style="display: none;">ความเก่ง</h1>
-            <div class="skills">
-                <C>
-                    <h4 class="EN">C Programming</h4>
-                    <h4 class="TH" style="display: none;">โปรแกรมภาษาซี</h4>
-                    <div>
-                        <img src="images/C.png" alt="C">
-                        <tnb>
-                            <p class="EN">Strong in algorithm and system programming.</p>
-                            <p class="TH" style="display: none;">เชี่ยวชาญการเขียนโปรแกรมมาก ๆ เก่งจัด ๆ</p>
-                            <a class="C">
-                                <p class="EN">Showcase</p>
-                                <p class="TH" style="display: none;">ผลงานเทพ</p>
-                            </a>
-                        </tnb>
-                    </div>
-                </C>
-                <Blender>
-                    <h4 class="EN">Blender</h4>
-                    <h4 class="TH" style="display: none;">เบลนเดอร์</h4>
-                    <div>
-                        <img class="Blender_icon" src="images/Blender_LM.png" alt="Blender">
-                        <tnb>
-                            <p class="EN">Proficient in 3D modeling and rendering.</p>
-                            <p class="TH" style="display: none;">มีทักษะสร้างแบบจำลองและเรนเดอร์ภาพ 3 มิติ</p>
-                            <a class="Blender">
-                                <p class="EN">Showcase</p>
-                                <p class="TH" style="display: none;">ผลงานเทพ</p>
-                            </a>
-                        </tnb>
-                    </div>
-                </Blender>
-                <Ai>
-                    <h4 class="EN">Adobe Illustrator</h4>
-                    <h4 class="TH" style="display: none;">อะโดบี อิลลัสเตรเตอร์</h4>
-                    <div>
-                        <img src="images/Ai.png" alt="Ai">
-                        <tnb>
-                            <p class="EN">Expert in vector graphics and logo design.</p>
-                            <p class="TH" style="display: none;">เชี่ยวชาญกราฟิกเวกเตอร์ขั้นมหากาฬ</p>
-                            <a class="Ai">
-                                <p class="EN">Showcase</p>
-                                <p class="TH" style="display: none;">ผลงานเทพ</p>
-                            </a>
-                        </tnb>
-                    </div>
-                </Ai>
-                <Ps>
-                    <h4 class="EN">Adobe Photoshop</h4>
-                    <h4 class="TH" style="display: none;">อะโดบี โฟโตชอป</h4>
-                    <div>
-                        <img src="images/Ps.png" alt="Ps">
-                        <tnb>
-                            <p class="EN">Skilled in photo editing and digital art.</p>
-                            <p class="TH" style="display: none;">มีทักษะในด้านการแก้ไขภาพและศิลปะดิจิทัล</p>
-                            <a class="Ps">
-                                <p class="EN">Showcase</p>
-                                <p class="TH" style="display: none;">ผลงานเทพ</p>
-                            </a>
-                        </tnb>
-                    </div>
-                </Ps>
-            </div>
-        </section>
-        <section id="contact">
-            <h1 class="EN">Contacts</h1>
-            <h1 class="TH" style="display: none;">ช่องทางการติดต่อ</h1>
-            <con>
-                <form id="contact-form">
-                    <h4 class="EN">Quick Message</h4>
-                    <h4 class="TH" style="display: none;">อยากบอกอะไรไหม</h4>
-                    <p class="EN">Your email (Optional: If you want a reply.)</p>
-                    <p class="TH" style="display: none;">อีเมลของคุณ (เผื่ออยากให้ตอบกลับ)</p>
-                    <input type="email" class="input" id="email">
-                    <p class="EN">Your name (Also Optional :P)</p>
-                    <p class="TH" style="display: none;">ชื่อของคุณ (ไม่บังคับเช่นกัน :P)</p>
-                    <input type="text" class="input" id="name">
-                    <p class="EN">Your message</p>
-                    <p class="TH" style="display: none;">ข้อความ</p>
-                    <textarea class="input" id="message" rows="4" required></textarea>
-                    <button id="submit" class="EN" type="submit">Send</button>
-                    <button id="submit" class="TH" style="display: none;" type="submit">ส่ง</button>
-                    <div id="form-response"></div>
-                </form>
-                <div class="contact-method">
-                    <h4 class="EN">Contact Methods</h4>
-                    <h4 class="TH" style="display: none;">วิธีการติดต่อ</h4>
+                <a onclick=showSidebar() class="menu" href="#">☰</a>
+            </nav>
+        </header>
 
-                    <div class="EN">
-                        <a href="https://discord.com/users/740887720209154068" class="discord">
-                            <i class="fa-brands fa-discord"></i>
-                            <span> Discord: fin5078</span>
-                        </a>
-                        <a href="mailto:chawin.chin@mail.kmutt.ac.th" class="email">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span> Email: chawin.chin@mail.kmutt.ac.th</span>
-                        </a>
-                        <a href="https://www.facebook.com/chawin.chin.39" class="facebook">
-                            <i class="fab fa-facebook"></i>
-                            <span> Facebook: Fin Chawin</span>
-                        </a>
-                        <a href="https://www.instagram.com/fne_feins/" class="instagram">
-                            <i class="fab fa-instagram"></i>
-                            <span> Instagram: fne_feins</span>
-                        </a>
-                        <a href="https://steamcommunity.com/id/fincanfly" class="steam">
-                            <i class="fa-brands fa-steam"></i>
-                            <span> Steam: 1128381908</span>
-                        </a>
-                    </div>
-
-                    <div class="TH" style="display: none;">
-                        <a href="https://discord.com/users/740887720209154068" class="discord">
-                            <i class="fa-brands fa-discord"></i>
-                            <span> ดิสคอร์ด: fin5078</span>
-                        </a>
-                        <a href="mailto:chawin.chin@mail.kmutt.ac.th" class="email">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span> อีเมล: chawin.chin@mail.kmutt.ac.th</span>
-                        </a>
-                        <a href="https://www.facebook.com/chawin.chin.39" class="facebook">
-                            <i class="fab fa-facebook"></i>
-                            <span> เฟซบุ๊ก: Fin Chawin</span>
-                        </a>
-                        <a href="https://www.instagram.com/fne_feins/" class="instagram">
-                            <i class="fab fa-instagram"></i>
-                            <span> อินสตาแกรม: fne_feins</span>
-                        </a>
-                        <a href="https://steamcommunity.com/id/fincanfly" class="steam">
-                            <i class="fa-brands fa-steam"></i>
-                            <span> สตีม: 1128381908</span>
-                        </a>
-                    </div>
-                </div>
-            </con>
-        </section>
-    </div>
-    <div class="popup">
-        <div class="popup-content">
-            <img class="cool-img" src="" alt="">
+        <div class="sidebar">
+            <a onclick=hideSidebar() class="bye" href="#">&times;</a>
+            <a class="EN" href="#home">Home</a>
+            <a class="EN" href="#about">About Me</a>
+            <a class="EN" href="#education">Education</a>
+            <a class="EN" href="#skills">Skills</a>
+            <a class="EN" href="#contact">Contacts</a>
+            <a class="TH" style="display: none;" href="#home">บ้าน</a>
+            <a class="TH" style="display: none;" href="#about">เกี่ยวกับฉัน</a>
+            <a class="TH" style="display: none;" href="#education">การศึกษา</a>
+            <a class="TH" style="display: none;" href="#skills">ความเก่ง</a>
+            <a class="TH" style="display: none;" href="#contact">ช่องทางติดต่อ</a>
         </div>
-        <close class="close">&times;</close>
-    </div>
-</body>
-<script src="scripts.js"></script>
 
-</html>
+        <section id="home">
+            <h1 class="EN">Fin's Portfolio Website</h1>
+            <h4 class="EN">Hi there, Fin is glad to see you!</h4>
+            <h1 class="TH" style="display: none;">ฟินอยากกินพิซซา</h1>
+            <h4 class="TH" style="display: none;">ดีคับ นี่เป็นการบ้านของฟิน ดีใจจังเลยคับ</h4>
+        </section>
+        <div class="section-bg">
+            <section id="about">
+                <div class="about">
+                    <div class="about-img">
+                        <div class="cow-con">
+                            <img class="FICO" src="images/AM_BOY.gif" alt="Fin">
+                            <h4 class="cow">></h4>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h1 class="EN">About Fin</h1>
+                        <p class="EN">Hii, my name is Chawin Chinpraditsuk. I am a first-year computer engineering
+                            student
+                            at KMUTT. I started learning code from zero with the goal of becoming as good as my friends
+                            here.
+                            This is my first website, and I appreciate your visit! :0</p>
+                        <h1 class="TH" style="display: none;">เกี่ยวกับฟิน</h1>
+                        <p class="TH" style="display: none;">สวัสดีคับ ผมชื่อชวิน ชินประดิษฐสุข
+                            เป็นนักศึกษาวิศวกรรมคอมพิวเตอร์ปี 1 ที่ มจธ. ผมเพิ่งมาหัดเขียนโค้ดเอาได้เมื่อไม่นานมานี้
+                            ผมมีเป้าหมายที่อยากเก่งเหมือนเพื่อน ๆ ของผม สิ่งนี้เป็นเว็บไซต์แรกของผม
+                            น้ำตาจะไหลที่คุณเปิดอ่านนะคับ TT</p>
+                    </div>
+                </div>
+            </section>
+            <section id="education">
+                <h1 class="EN">Education</h1>
+                <h1 class="TH" style="display: none;">การศึกษา</h1>
+                <div class="education">
+                    <swb>
+                        <h4 class="EN">Kindergarten-High school</h4>
+                        <h4 class="TH" style="display: none;">อนุบาล-มัธยมปลาย</h4>
+                        <img src="images/SWB.gif" alt="SWB">
+                        <p class="EN">
+                            <a href="https://www.swb.ac.th/swb/">Sarasas Witaed Bangbon
+                                School</a><br><span>(2008-2023)</span><br>Science and Mathametics Program
+                        </p>
+                        <p class="TH" style="display: none;">
+                            <a href="https://www.swb.ac.th/swb/">โรงเรียนสารสาสน์วิเทศบางบอน
+                            </a><br><span>(2551-2566)</span><br>แผนการเรียนวิทยาศาสตร์และคณิตศาสตร์
+                        </p>
+                    </swb>
+                    <kmutt>
+                        <h4 class="EN">University</h4>
+                        <h4 class="TH" style="display: none;">มหาวิทยาลัย</h4>
+                        <img src="images/KMUTT.gif" alt="SWB">
+                        <p class="EN">
+                            <a href="https://www.kmutt.ac.th/">King Mongkut’s University of Technology
+                                Thonburi</a><br><span>(2024-Present)</span><br><a
+                                href="https://www.cpe.kmutt.ac.th/">Bachelor
+                                of Engineering Program in Computer Engineering</a>
+                        </p>
+                        <p class="TH" style="display: none;">
+                            <a href="https://www.kmutt.ac.th/">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+                            </a><br><span>(2024-Present)</span><br><a
+                                href="https://www.cpe.kmutt.ac.th/">หลักสูตรวิศวกรรมศาสตรบัณฑิต
+                                สาขาวิชาวิศวกรรมคอมพิวเตอร์</a>
+                        </p>
+                    </kmutt>
+                </div>
+            </section>
+            <section id="skills">
+                <h1 class="EN">Skills</h1>
+                <h1 class="TH" style="display: none;">ความเก่ง</h1>
+                <div class="skills">
+                    <C>
+                        <h4 class="EN">C Programming</h4>
+                        <h4 class="TH" style="display: none;">โปรแกรมภาษาซี</h4>
+                        <div>
+                            <img src="images/C.png" alt="C">
+                            <tnb>
+                                <p class="EN">Strong in algorithm and system programming.</p>
+                                <p class="TH" style="display: none;">เชี่ยวชาญการเขียนโปรแกรมมาก ๆ เก่งจัด ๆ</p>
+                                <a class="C">
+                                    <p class="EN">Showcase</p>
+                                    <p class="TH" style="display: none;">ผลงานเทพ</p>
+                                </a>
+                            </tnb>
+                        </div>
+                    </C>
+                    <Blender>
+                        <h4 class="EN">Blender</h4>
+                        <h4 class="TH" style="display: none;">เบลนเดอร์</h4>
+                        <div>
+                            <img class="Blender_icon" src="images/Blender_LM.png" alt="Blender">
+                            <tnb>
+                                <p class="EN">Proficient in 3D modeling and rendering.</p>
+                                <p class="TH" style="display: none;">มีทักษะสร้างแบบจำลองและเรนเดอร์ภาพ 3 มิติ</p>
+                                <a class="Blender">
+                                    <p class="EN">Showcase</p>
+                                    <p class="TH" style="display: none;">ผลงานเทพ</p>
+                                </a>
+                            </tnb>
+                        </div>
+                    </Blender>
+                    <Ai>
+                        <h4 class="EN">Adobe Illustrator</h4>
+                        <h4 class="TH" style="display: none;">อะโดบี อิลลัสเตรเตอร์</h4>
+                        <div>
+                            <img src="images/Ai.png" alt="Ai">
+                            <tnb>
+                                <p class="EN">Expert in vector graphics and logo design.</p>
+                                <p class="TH" style="display: none;">เชี่ยวชาญกราฟิกเวกเตอร์ขั้นมหากาฬ</p>
+                                <a class="Ai">
+                                    <p class="EN">Showcase</p>
+                                    <p class="TH" style="display: none;">ผลงานเทพ</p>
+                                </a>
+                            </tnb>
+                        </div>
+                    </Ai>
+                    <Ps>
+                        <h4 class="EN">Adobe Photoshop</h4>
+                        <h4 class="TH" style="display: none;">อะโดบี โฟโตชอป</h4>
+                        <div>
+                            <img src="images/Ps.png" alt="Ps">
+                            <tnb>
+                                <p class="EN">Skilled in photo editing and digital art.</p>
+                                <p class="TH" style="display: none;">มีทักษะในด้านการแก้ไขภาพและศิลปะดิจิทัล</p>
+                                <a class="Ps">
+                                    <p class="EN">Showcase</p>
+                                    <p class="TH" style="display: none;">ผลงานเทพ</p>
+                                </a>
+                            </tnb>
+                        </div>
+                    </Ps>
+                </div>
+            </section>
+            <section id="contact">
+                <h1 class="EN">Contacts</h1>
+                <h1 class="TH" style="display: none;">ช่องทางการติดต่อ</h1>
+                <con>
+                    <form id="contact-form">
+                        <h4 class="EN">Quick Message</h4>
+                        <h4 class="TH" style="display: none;">อยากบอกอะไรไหม</h4>
+                        <p class="EN">Your email (Optional: If you want a reply.)</p>
+                        <p class="TH" style="display: none;">อีเมลของคุณ (เผื่ออยากให้ตอบกลับ)</p>
+                        <input type="email" class="input" id="email">
+                        <p class="EN">Your name (Also Optional :P)</p>
+                        <p class="TH" style="display: none;">ชื่อของคุณ (ไม่บังคับเช่นกัน :P)</p>
+                        <input type="text" class="input" id="name">
+                        <p class="EN">Your message</p>
+                        <p class="TH" style="display: none;">ข้อความ</p>
+                        <textarea class="input" id="message" rows="4" required></textarea>
+                        <button id="submit" class="EN" type="submit">Send</button>
+                        <button id="submit" class="TH" style="display: none;" type="submit">ส่ง</button>
+                        <div id="form-response"></div>
+                    </form>
+                    <div class="contact-method">
+                        <h4 class="EN">Contact Methods</h4>
+                        <h4 class="TH" style="display: none;">วิธีการติดต่อ</h4>
+
+                        <div class="EN">
+                            <a href="https://discord.com/users/740887720209154068" class="discord">
+                                <i class="fa-brands fa-discord"></i>
+                                <span> Discord: fin5078</span>
+                            </a>
+                            <a href="mailto:chawin.chin@mail.kmutt.ac.th" class="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span> Email: chawin.chin@mail.kmutt.ac.th</span>
+                            </a>
+                            <a href="https://www.facebook.com/chawin.chin.39" class="facebook">
+                                <i class="fab fa-facebook"></i>
+                                <span> Facebook: Fin Chawin</span>
+                            </a>
+                            <a href="https://www.instagram.com/fne_feins/" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span> Instagram: fne_feins</span>
+                            </a>
+                            <a href="https://steamcommunity.com/id/fincanfly" class="steam">
+                                <i class="fa-brands fa-steam"></i>
+                                <span> Steam: 1128381908</span>
+                            </a>
+                        </div>
+
+                        <div class="TH" style="display: none;">
+                            <a href="https://discord.com/users/740887720209154068" class="discord">
+                                <i class="fa-brands fa-discord"></i>
+                                <span> ดิสคอร์ด: fin5078</span>
+                            </a>
+                            <a href="mailto:chawin.chin@mail.kmutt.ac.th" class="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span> อีเมล: chawin.chin@mail.kmutt.ac.th</span>
+                            </a>
+                            <a href="https://www.facebook.com/chawin.chin.39" class="facebook">
+                                <i class="fab fa-facebook"></i>
+                                <span> เฟซบุ๊ก: Fin Chawin</span>
+                            </a>
+                            <a href="https://www.instagram.com/fne_feins/" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span> อินสตาแกรม: fne_feins</span>
+                            </a>
+                            <a href="https://steamcommunity.com/id/fincanfly" class="steam">
+                                <i class="fa-brands fa-steam"></i>
+                                <span> สตีม: 1128381908</span>
+                            </a>
+                        </div>
+                    </div>
+                </con>
+            </section>
+        </div>
+        <div class="popup">
+            <div class="popup-content">
+                <img class="cool-img" src="" alt="">
+            </div>
+            <close class="close">&times;</close>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+
+    </html>

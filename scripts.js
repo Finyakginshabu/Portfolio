@@ -112,3 +112,18 @@ function showSidebar(){
 function hideSidebar(){
     document.querySelector(".sidebar").style.display = "none"
 }
+
+//cow
+let cow = true;
+document.querySelector('.cow').addEventListener('click', function () {
+    if (cow) {
+        document.querySelector(".FICO").src = "images/AM_COW.gif"
+        
+        this.textContent = '<';
+    } else {
+        document.querySelector(".FICO").src = "images/AM_BOY.gif"
+        
+        this.textContent = '>';
+    }
+    cow = !cow;
+});
