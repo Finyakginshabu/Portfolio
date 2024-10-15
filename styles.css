@@ -305,7 +305,7 @@ C, Blender, Ai, Ps {
 .skills img {
     display: block;
     width: 14vw;
-    height: fit-content;
+    height: 14vw;
 }
 
 .skills tnb {
@@ -365,7 +365,7 @@ C, Blender, Ai, Ps {
 }
 
 .cool-img {
-    border-radius: 4.6vh;
+    border-radius: 2.3vw;
     display: block;
     max-height: 96%;
     width: 97%;
