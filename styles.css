@@ -83,7 +83,7 @@ header {
     font-size: 16px;
     height: 4%;
     justify-content: space-between;
-    padding: 26px 12vh;
+    padding: 26px 6vw;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -98,13 +98,13 @@ header div {
     box-shadow: #26262607 0 0 7px;
     cursor: pointer;
     height: 36px;
-    margin-left: 1vh;
+    margin-left: 1vw;
 }
 
 .LNG {
     cursor: pointer;
     font-size: 26px;
-    margin-left: 2.6vh;
+    margin-left: 1vw;
 }
 
 .logo:hover {
@@ -116,7 +116,7 @@ header div {
 }
 
 .LD {
-    margin-left: 3vh;
+    margin-left: 1.6vw;
 }
 
 nav {
@@ -127,7 +127,7 @@ nav a {
     color: var(--color1);
     font-weight: 500;
     list-style: none;
-    padding: 3vh;
+    padding: 2vw;
     text-decoration: none;
     text-shadow: #26262607 0 0 2px;
 }
@@ -145,13 +145,13 @@ nav a:hover {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    text-align: center;
     text-shadow: #ffd66e26 0 0 26px;
 }
 
 #home h1 {
     font-size: 75px;
     font-weight: 720;
-    text-align: center;
     transform: translateY(14px);
 }
 
@@ -169,13 +169,13 @@ nav a:hover {
 
 #about {
     display: flex;
-    padding: 12vh;
+    padding: 6vw;
     width: 100%;
 }
 
 .about {
     align-items: center;
-    border-radius: 8vh;
+    border-radius: 4vw;
     display: flex;
     justify-content: space-between;
     backdrop-filter: blur(12px);
@@ -188,8 +188,8 @@ nav a:hover {
 .about-img img {
     display: block;
     border: 4px solid #78d6ff26;
-    border-radius: 6vh;
-    height: 70vh;
+    border-radius: 3vw;
+    width: 37vw;
     margin: 3vh;
 }
 
@@ -209,7 +209,7 @@ nav a:hover {
 #education {
     display: flex;
     flex-direction: column;
-    padding: 12vh;
+    padding: 6vw;
     width: 100%;
 }
 
@@ -225,13 +225,13 @@ nav a:hover {
 
 .education {
     display: flex;
-    gap: 6vh;
+    gap: 3vw;
     justify-content: space-between;
 }
 
 swb, kmutt {
     align-items: center;
-    border-radius: 8vh;
+    border-radius: 4vw;
     color: var(--color1);
     display: flex;
     backdrop-filter: blur(12px);
@@ -239,7 +239,7 @@ swb, kmutt {
     -webkit-backdrop-filter: blur(12px);
     border: 4px solid #ffffff26;
     box-shadow: 0 7px 26px #ff313104;
-    flex: 1;
+    width: 48%;
     flex-direction: column;
     padding: 8vh;
     text-align: center;
@@ -247,7 +247,7 @@ swb, kmutt {
 
 .education img {
     display: block;
-    height: 50vh;
+    width: 26vw;
 }
 
 span {
@@ -262,7 +262,7 @@ span {
 #skills {
     display: flex;
     flex-direction: column;
-    padding: 12vh;
+    padding: 6vw;
     width: 100%;
 }
 
@@ -280,7 +280,8 @@ span {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 6vh;
+    gap: 3vw;
+    justify-content: space-between;
 }
 
 C, Blender, Ai, Ps {
@@ -289,10 +290,10 @@ C, Blender, Ai, Ps {
     background: var(--color7);
     -webkit-backdrop-filter: blur(12px);
     border: 4px solid #ffffff26;
-    border-radius: 8vh;
+    border-radius: 4vw;
     box-shadow: 0 7px 26px #ff313104;
-    flex: 45%;
-    padding: 8vh;
+    width: 48%;
+    padding: 4vw;
 }
 
 .skills div {
@@ -302,7 +303,8 @@ C, Blender, Ai, Ps {
 
 .skills img {
     display: block;
-    width: 26vh;
+    width: 14vw;
+    height: fit-content;
 }
 
 .skills tnb {
@@ -351,7 +353,7 @@ C, Blender, Ai, Ps {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 4px solid #ffffff26;
-    border-radius: 6vh;
+    border-radius: 4vw;
     box-shadow: 0 7px 26px #ff313104;
     display: flex;
     justify-content: center;
@@ -386,7 +388,7 @@ close:hover {
 #contact {
     display: flex;
     flex-direction: column;
-    padding: 4vh 12vh;
+    padding: 4vh 6vw;;;
     width: 100%;
     background: var(--color8);
     backdrop-filter: blur(12px);
@@ -415,7 +417,7 @@ con {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0 12vh;
+    padding: 0 4vw;
 }
 
 .input {
@@ -561,21 +563,47 @@ input:-moz-autofill {
     font-size: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1126px) {
     body {
         font-size: 22px;
     }
 
-    .about, .education, .skills div {
+    h4 {
+        font-size: 28px;
+    }
+
+    c, blender, ai, ps {
+        width: 100%;
+    }
+}
+
+@media (max-width: 826px) {
+    #home h1 {
+        font-size: 60px;
+    }
+
+    .about, .education {
         flex-direction: column;
     }
 
+    .contact-method a span {
+        transform: translateX(13px) translateY(-7px);
+    }
+    
     #contact-form, .contact-method {
         padding: 0;
     }
 
     .about-img img {
-        height: 50vh;
+        width: 50vw;
+    }
+
+    swb, kmutt {
+        width: 100%;
+    }
+
+    .education img {
+        width: 50vw;
     }
 
     header nav div {
