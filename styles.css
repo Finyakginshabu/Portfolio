@@ -65,6 +65,7 @@ h4 {
 }
 
 body {
+    background: var(--color3);
     color: var(--color1);
     font-weight: 400;
     font-size: 26px;
