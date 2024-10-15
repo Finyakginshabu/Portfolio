@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
 
 :root {
-    --color1: #2e2e2e;
+    --color1: #ff0000;
     --color2: #ffeaca66;
     --color3: linear-gradient(#e2eeee 0%, #e2eeee 10%, #e7dcd6 25%, #e7dcd6 48%, #efe3ed 63%, #efe3ed 100%);
     --homebg: url("images/LP_LM.jpg");
